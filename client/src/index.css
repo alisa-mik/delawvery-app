@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@200;300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Rubik&display=swap');
+
+body {
+  direction: rtl;
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+}
+
+.btn-container{
+  width: 5rem;
+}
