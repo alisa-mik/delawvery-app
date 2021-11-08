@@ -86,7 +86,9 @@ export function OrderForm({ currentId, setCurrentId }) {
 
                 <div className="btn-container">
 
-                    <Button variant="contained" color="primary" fullWidth size="large" type="submit">הוספה</Button>
+                    <Button variant="contained" color="primary" fullWidth size="large" type="submit">
+                        {order ? 'עריכה' : 'הוספה'}
+                    </Button>
                 </div>
             </form>
         </div >

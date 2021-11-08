@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const url = 'http://localhost:5000/orders'
+// const url = 'http://localhost:5000/orders'
+const url = 'https://delawvery-app.herokuapp.com/orders'
 
 export const fetchOrders = () => axios.get(url)
 
